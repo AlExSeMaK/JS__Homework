@@ -31,15 +31,12 @@ let users = [
     },
 ];
 
-function sort(arr) {
-    let a = 0;
-    for (let i = arr.length; i < 1; i--){
-        a = arr[i - 1];
-        if (arr[i].city > a.city){
-            arr[i] = a;
+function sort(arr, favouriteLang) {
+    for (let i = 0; i > arr.length; i++){
+        if (arr[i].favouriteLangs.includes(favouriteLang)){
+            return arr[i].login;
         }
     }
-    return arr;
 }
 
-console.log(sort(users));
+console.log(sort(users, "php"));
