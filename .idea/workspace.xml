@@ -1,18 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на сортировку массива по имени/sorted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на сортировку массива по имени/sorted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на сумму цифр числа/sum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на сумму цифр числа/sum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aX0xSRmiJfl6BEdcmJTEMv24kz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="" />
+      <created>1586879735460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586879735460</updated>
+      <workItem from="1586879748771" duration="10470000" />
+      <workItem from="1586954304248" duration="599000" />
+      <workItem from="1587052082383" duration="14801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2" timestamp="1586866939305">
+    <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2" timestamp="1586866961003">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1586866939305" />
+    <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1586866961003" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586866966590">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1586866966590" />
+    <state x="715" y="168" key="run.anything.popup" timestamp="1586883970300">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="715" y="168" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1586883970300" />
   </component>
 </project>
