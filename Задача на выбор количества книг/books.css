@@ -1,0 +1,26 @@
+.book {
+    display: grid;
+    gap: 1em;
+    border: 1px solid gray;
+}
+
+.book :nth-child(1){
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.book :nth-child(2){
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.book :nth-child(3){
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.book :nth-child(4){
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
