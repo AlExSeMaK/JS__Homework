@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Проверка возраста/age.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Проверка возраста/age.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на отображение комментария/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на отображение комментария/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задача на отображение комментария/comments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +78,8 @@
       <workItem from="1587052082383" duration="15167000" />
       <workItem from="1587169831982" duration="13000" />
       <workItem from="1587170165451" duration="1995000" />
+      <workItem from="1587996612527" duration="6717000" />
+      <workItem from="1588005639079" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="homework">
       <created>1587169566628</created>
@@ -79,6 +100,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework" />
