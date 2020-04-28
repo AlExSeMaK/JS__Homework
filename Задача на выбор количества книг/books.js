@@ -36,15 +36,22 @@ for (let i = 0; i < books.length; i++) {
 let adder = document.querySelectorAll('.book :nth-child(4) :last-child');
 console.log(adder);
 
-let count = document.querySelectorAll('.book :nth-child(3)');
-console.log(count)
+let remover = document.querySelectorAll('.book :nth-child(4) :first-child');
+console.log(adder);
+
+
 
 for (let elem of adder) {
     elem.addEventListener('click', addBook);
 }
-function addBook() {
+
+for (let elem of remover) {
+    elem.addEventListener('click', remBook);
+}
+
+function addBook(event) {
     console.log('Плюс реагирует на событие');
-    let val = 0;
+    let evn = event.target
     console.log(count)
 
 }
