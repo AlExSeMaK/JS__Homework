@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="Задача на книги">
+      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Задача на выбор количества книг/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/Задача на выбор количества книг/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,8 @@
       <workItem from="1587169831982" duration="13000" />
       <workItem from="1587170165451" duration="1995000" />
       <workItem from="1587996612527" duration="6717000" />
-      <workItem from="1588005639079" duration="10965000" />
+      <workItem from="1588005639079" duration="10980000" />
+      <workItem from="1588070053197" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="homework">
       <created>1587169566628</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588033718382</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Задача на книги">
+      <created>1588034836814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588034836814</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,10 +185,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1587171550163" />
-    <state x="255" y="103" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588033720144">
+    <state x="255" y="103" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588034838272">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="255" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1588033720144" />
+    <state x="255" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1588034838272" />
     <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1587171552956" />
     <state x="715" y="168" key="run.anything.popup" timestamp="1586883970300">
       <screen x="67" y="27" width="1299" height="741" />
