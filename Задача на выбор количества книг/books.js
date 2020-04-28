@@ -23,14 +23,33 @@ for (let i = 0; i < books.length; i++) {
     // div.setAttribute('class', 'flex')
     let add = document.createElement('p');
     add.innerText = '+';
+    add.setAttribute('name', 'add')
     let numb = document.createElement('input');
     numb.setAttribute('type', 'text');
     let remm = document.createElement('p');
     remm.innerText = '-';
     div.append(remm, numb, add);
-    bib.append(author, title, count, div)
-    document.body.prepend(bib)
+    bib.append(author, title, count, div);
+    document.body.prepend(bib);
 }
+
+let adder = document.querySelectorAll('.book :nth-child(4) :last-child');
+console.log(adder);
+
+let count = document.querySelectorAll('.book :nth-child(3)');
+console.log(count)
+
+for (let elem of adder) {
+    elem.addEventListener('click', addBook);
+}
+function addBook() {
+    console.log('Плюс реагирует на событие');
+    let val = 0;
+    console.log(count)
+
+}
+
+
 
 
 
