@@ -11,12 +11,12 @@ for (let i = 0; i < objFromJson.length; i++) {
     let photo = document.createElement('img');
     photo.setAttribute('src', 'cat.jpg');
     let age = document.createElement('p');
-    age.innerText = objFromJson[i]['age'];
+    age.innerText = `Возраст: ${objFromJson[i]['age']}`;
     let dop = document.createElement('div');
     let inf = document.createElement('p');
     inf.innerText = 'Дополнительная информация';
     let color = document.createElement('p');
-    color.innerText = objFromJson[i]['color'];
+    color.innerText = `Цвет: ${objFromJson[i]['color']}`;
     let vac = document.createElement('p');
     let dod = objFromJson[i]['additional_info'];
     console.log(dod);

@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="Задача на книги">
-      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Задание на вывод данных/json.js" afterDir="false" />
+    <list default="true" id="03cf3a2d-e55a-40e8-bb5a-5d6c841b7dfd" name="Default Changelist" comment="Задача с json строкой">
+      <change afterPath="$PROJECT_DIR$/Создайте массив из 11 случайных целых чисел из отрезка [-1;1]/random.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Создайте массив из 11 случайных целых чисел из отрезка [-1;1]/random.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Задание на вывод данных/json.css" beforeDir="false" afterPath="$PROJECT_DIR$/Задание на вывод данных/json.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Задание на вывод данных/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/Задание на вывод данных/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Задача на выбор количества книг/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/Задача на выбор количества книг/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,8 @@
       <workItem from="1587170165451" duration="1995000" />
       <workItem from="1587996612527" duration="6717000" />
       <workItem from="1588005639079" duration="10980000" />
-      <workItem from="1588070053197" duration="4579000" />
+      <workItem from="1588070053197" duration="8632000" />
+      <workItem from="1589586643382" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="homework">
       <created>1587169566628</created>
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588034836814</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Задача с json строкой">
+      <created>1588083522854</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588083522854</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +184,8 @@
     <MESSAGE value="homework" />
     <MESSAGE value="Задача на добавление комментария" />
     <MESSAGE value="Задача на книги" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача на книги" />
+    <MESSAGE value="Задача с json строкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача с json строкой" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="226" width="709" height="275" key="#Notifications" timestamp="1588012084065">
@@ -185,10 +196,14 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="185" y="27" width="1053" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1587171550163" />
-    <state x="255" y="103" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588034838272">
+    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1588090695415">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="255" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1588034838272" />
+    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1588090695415" />
+    <state x="255" y="103" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588083526509">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="255" y="103" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1588083526509" />
     <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1587171552956" />
     <state x="715" y="168" key="run.anything.popup" timestamp="1586883970300">
       <screen x="67" y="27" width="1299" height="741" />

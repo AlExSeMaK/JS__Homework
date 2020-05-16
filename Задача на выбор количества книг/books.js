@@ -60,4 +60,26 @@ function addBook(event) {
 
 
 
+function generate(books) {
+    for (let item of books) {
+        let btnContainer = document.createElement('div');
+        btnContainer.innerHTML = `<input type="button" value="-">
+                                  <input type="number" value="0" min="0" max="${item.count}">
+                                  <input type="=button" value="=">`;
+        btnContainer.addEventListener('click', changeCount.bind(btnContainer, item));
+        btnContainer.querySelector('input[type="number"]')
+            .addEventListener('input', changeNum.bind(btnContainer, item));
+
+    }
+}
+
+function changeCount(book, event) {
+    let clickElem = event.target.value;
+    let numberInput = this.querySelector('input[type="number"]');
+    numberInput.value =
+    book.count
+}
+
+
+
 
