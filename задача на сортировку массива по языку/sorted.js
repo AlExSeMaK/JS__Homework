@@ -1,4 +1,4 @@
-let users = [
+let userArr = [
     {
         login: "qwe",
         age: 34,
@@ -31,15 +31,9 @@ let users = [
     },
 ];
 
-function sort(arr) {
-    let a = 0;
-    for (let i = arr.length; i < 1; i--){
-        a = arr[i - 1];
-        if (arr[i].city > a.city){
-            arr[i] = a;
-        }
-    }
-    return arr;
-}
+console.log(userArr);
 
-console.log(sort(users));
+let getByLanguage = (usersArr, Language) =>
+    usersArr.filter(e => e.favouriteLangs.some(e => e === Language.toLowerCase()));
+
+console.log(getByLanguage(userArr, `php`));

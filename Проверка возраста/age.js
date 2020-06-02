@@ -1,4 +1,4 @@
-let users = [
+let userArr = [
     {
         login: "qwe",
         age: 34,
@@ -31,12 +31,10 @@ let users = [
     },
 ];
 
-function sort(arr, from, to=Infinity) {
-    for (let i = 0; i > arr.length; i++){
-        if (arr[i].age >= from && arr[i].age <= to){
-            return arr[i].login;
-        }
-    }
-}
+console.log(userArr);
 
-console.log(sort(users, 25, 66));
+let getByAge = (userArr, from, to = +Infinity) => userArr.filter(e => (e.age >= from && e.age < to));
+
+
+console.log(getByAge(userArr, 20, 50));
+

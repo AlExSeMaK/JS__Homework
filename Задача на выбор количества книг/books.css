@@ -1,27 +1,60 @@
-.book {
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.tovars {
     display: grid;
-    gap: 1em;
-    border: 1px solid gray;
+    grid-gap: 15px;
+    grid-auto-flow: dense;
+    margin: 20px 0;
 }
-
-.book :nth-child(1){
-    grid-row: 1/2;
-    grid-column: 1/2;
+.tovars > div {
+    background: rgba(255, 234, 234, 0.7);
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px rgba(255, 106, 0, 0.3);
+    padding: 5px;
 }
-
-.book :nth-child(2){
-    grid-row: 1/2;
-    grid-column: 2/3;
+.tovars > div h3 {
+    text-align:center;
+    margin-bottom:10px;
 }
-
-.book :nth-child(3){
-    grid-row: 1/2;
-    grid-column: 3/4;
+.tovars > div cite {
+    text-align:center;
+    display:block;
+    margin-bottom:10px;
 }
-
-.book :nth-child(4){
-    grid-row: 2/3;
-    grid-column: 2/4;
+.tovars > div span.count {
+    display:block;
 }
-
-.book :f
+.counter {
+    margin:0 auto;
+    background:white;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    padding:3px;
+    font-size:1.1rem;
+}
+.counter input {
+    width: 35px;
+    height: 25px;
+    border: 1px solid rgba(76, 73, 73, 0.17);
+    box-shadow: 2px 3px 3px #ccc;
+    margin: 5px;
+    padding:2px;
+    text-align:center;
+    cursor:pointer;
+    border-radius:5px;
+}
